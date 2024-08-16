@@ -53,6 +53,12 @@ section button {
     cursor: pointer; /* Muda o cursor para indicar que é clicável */
 }
 
+/* Adiciona efeito hover ao botão de pesquisa */
+section button:hover {
+    background-color: #30475E; /* Muda a cor de fundo ao passar o mouse */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra mais intensa */
+}
+
 /* Estiliza a caixa de resultados da pesquisa */
 .resultados-pesquisa {
     width: 60rem; /* Largura máxima da caixa de resultados */
@@ -149,7 +155,7 @@ footer {
     }
 
     .resultados-pesquisa {
-        width: 85%;
+        width: 90%;
         height: 50vh;
     }
 
