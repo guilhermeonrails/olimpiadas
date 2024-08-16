@@ -143,7 +143,7 @@ footer {
     }
 
     section input {
-        width: 100%; /* Largura total dos inputs em telas pequenas */
+        width: 17rem; /* Largura total dos inputs em telas pequenas */
     }
 
     section button {
