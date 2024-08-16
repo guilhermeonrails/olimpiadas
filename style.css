@@ -136,9 +136,6 @@ footer {
 
 /* Responsividade para celulares */
 @media (max-width: 480px) {
-    body {
-        padding: 1rem;
-    }
 
     h1 {
         font-size: 1.8rem;
