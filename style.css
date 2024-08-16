@@ -106,3 +106,58 @@ footer {
     bottom: 0; /* Alinha ao fundo da página */
     font-size: 1rem; /* Tamanho da fonte */
 }
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+        letter-spacing: 0.2rem;
+    }
+
+    section input {
+        width: 25rem;
+        padding: 0.8rem;
+    }
+
+    .resultados-pesquisa {
+        width: 40rem;
+        height: 40vh;
+    }
+
+    .item-resultado h2 {
+        font-size: 1.3rem;
+    }
+}
+
+/* Responsividade para celulares */
+@media (max-width: 480px) {
+    body {
+        padding: 1rem;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+        letter-spacing: 0.1rem;
+    }
+
+    section input {
+        width: 100%;
+    }
+
+    section button {
+        padding: 0.6rem 1rem;
+        font-size: 0.9rem;
+    }
+
+    .resultados-pesquisa {
+        width: 85%;
+        height: 50vh;
+    }
+
+    .item-resultado h2 {
+        font-size: 1.1rem;
+    }
+
+    footer {
+        font-size: 0.9rem;
+    }
+}
